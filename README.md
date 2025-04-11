@@ -1,20 +1,11 @@
-# Swiggy Docker Deployment 🚀
+# Submission: Task 4 - DevOps Git Workflow Project
 
-This project demonstrates deploying a Dockerized web app (`adijawanjal/swiggy:latest`) using Jenkins.
+This project demonstrates version control best practices for deploying a Dockerized Swiggy web app using Jenkins.
 
-## How It Works
+✅ Branching: main, dev, feature/jenkins-deploy  
+✅ PR-based workflow (branches were identical; manual merge unnecessary)  
+✅ Jenkinsfile to pull, stop, and deploy Docker container  
+✅ .gitignore, README, and documentation included  
+✅ Git tag `v1.0` for release created
 
-1. Pulls image from Docker Hub
-2. Removes any existing container
-3. Runs the new container on port 8080
-
-## Prerequisites
-
-- Docker installed on Jenkins node
-- Jenkins configured with necessary permissions
-
-## Access
-
-After pipeline runs, open:  
-http://<server-ip>:8080
-
+Repo: https://github.com/AdiJawanjal/swiggy-docker-deploy
