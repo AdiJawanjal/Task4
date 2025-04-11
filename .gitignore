@@ -1,0 +1,16 @@
+# Terraform/DevOps files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfplan
+
+# Docker
+*.log
+
+# OS and IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
